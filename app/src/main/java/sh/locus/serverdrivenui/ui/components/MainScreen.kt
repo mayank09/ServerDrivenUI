@@ -37,7 +37,7 @@ fun MainScreen(viewModel: MainViewModel = hiltViewModel()) {
                         Log.d("UserInput", result.toString())
                         Log.d("FinalResult  End", "*******************************")
                         //reset result
-                        viewModel.reset()
+                        //viewModel.reset()
                         Toast.makeText(context, "User Input Logged Successfully", Toast.LENGTH_SHORT).show()
                     })
             }
